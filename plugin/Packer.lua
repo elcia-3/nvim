@@ -50,6 +50,9 @@ require('packer').startup(function(use)
     use 'nvim-telescope/telescope.nvim'
     use 'nvim-telescope/telescope-file-browser.nvim'
     use 'nvim-tree/nvim-web-devicons'
+    use "nvim-telescope/telescope-frecency.nvim"
+    use 'kkharji/sqlite.lua'
+
 
     --pop.nvim
     use {
@@ -65,7 +68,7 @@ require('packer').startup(function(use)
     use 'vim-scripts/vim-auto-save'
 
     --go
-    use 'fatih//vim-go'
+    use 'fatih/vim-go'
 
     --etc
     use 'nvim-lua/plenary.nvim'
